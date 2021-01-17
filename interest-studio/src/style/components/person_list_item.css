@@ -1,0 +1,28 @@
+.remove_interest
+{
+  width: 180px;
+  border-radius: 30px;
+  color: white;
+}
+h3{
+  text-transform: uppercase;
+
+}
+.interst_list{
+
+  color: blue;
+  font-size: 24px;
+}
+h2{
+  font-size: 18px;
+}
+.preson_interest{
+  margin-left: 3%;
+  margin-right: 10%;
+  border: 2px solid #b224ef;
+  border-bottom: 2%;
+  border-left: 1%;
+  border-radius: 20px;
+  margin-top: 2%;
+
+}

@@ -1,0 +1,106 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+     margin:0px;
+     padding:0px;
+}
+.loginbox{
+    display: flex;
+    justify-content: space-around;
+    height:100vh;
+    border: 2px solid black;
+
+}
+.loginbox h1{
+    margin:20px;
+    padding:10px;
+    font-size: 30px;
+
+}
+.textbox{
+    border-left:3px solid midnightblue;
+    border-bottom: 1px solid midnightblue;
+    display: flex;
+}
+.textbox i{
+    margin-left: 10px;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+.textbox input{
+     border: none;
+    outline: none;
+    margin:10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 15px;
+
+
+}
+button{
+    width: 50%;
+   background:linear-gradient(to right,  #9295fc 0%, #c673fa 100%);
+    color: black;
+    padding: 3px;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-left: 20%;
+}
+
+button:hover {   background:linear-gradient(to left,  #9295fc 0%,#c673fa 100%);
+}
+.newuser{
+     margin-left:33%;
+     margin-right: 20px;
+
+}
+.icon{
+  margin-top: 60%;
+  margin-left: 15%;
+}
+.icon ul {
+
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  margin-bottom: 2%;
+  width: 200px;
+
+
+}
+.icon ul li a{
+  color: black;
+
+}
+.icon ul li a:hover{
+  color: purple;
+
+}
+.contact{
+  width: 300px;
+}
+.logo{
+  margin-top: 50%;
+}
+.loginForm{
+    margin-top:auto;
+    margin-bottom: auto;
+    width: 400px;
+}
+.loginforminput{
+   margin:20px;
+    padding:5px;
+}
+.signuplink{
+    border-radius: 10px;
+  background:linear-gradient(to right,  #9295fc 0%, #fc79b7 100%);
+   width: 20%;
+   justify-content: center;
+   padding: 4px;
+   text-transform: uppercase;
+   font-family: 'Montserrat', sans-serif;
+}
+.signuplink:hover {
+    background:linear-gradient(left, #b224ef, #7579ff);
+}

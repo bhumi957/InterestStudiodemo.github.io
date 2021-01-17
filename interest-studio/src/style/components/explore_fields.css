@@ -1,0 +1,51 @@
+.field_container{
+
+    width: 100%;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow:wrap;
+
+}
+.field{
+
+    height:190px;
+    width:24%;
+    margin:10px;
+    border-radius: 20px;
+    box-sizing:border-box;
+    overflow: hidden;
+    background:-webkit-linear-gradient(bottom, #7579ff, black)
+    /* background-color: black; */
+}
+
+.field_hover{
+    transition: 0.5s;
+}
+.field:hover .field_hover{
+    margin-top:10px;
+    border-radius:300px;
+    margin-left:32%;
+    width:120px;
+    height: 120px;
+}
+.field  .content{
+    margin-top:-7%;
+    margin-right: 2%;
+    color:white;
+   font-size: 25px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* @media screen and (max-width:800px){
+    .field{
+        width:40%;
+        height:200px;
+    }
+}
+@media screen and (max-width:600px){
+    .field{
+        width:90%;
+    }
+} */

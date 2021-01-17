@@ -1,0 +1,72 @@
+.profileinput{
+    /* width: 90%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    border-bottom: 1px solid midnightblue;  */
+    display:flex;
+    border-left:3px solid midnightblue; 
+    border-bottom:2px solid midnightblue;
+}
+.profileinput i{
+    /* width: 26px;
+    float: left;
+    text-align: center; */
+    margin-left:10px;
+    
+}
+
+#submit_profile{
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+    background:-webkit-linear-gradient(right, #b224ef, #7579ff);
+    color: black;
+    padding: 3px;
+    font-size: 18px; 
+    border-radius: 30px;
+}
+.profileinput input{
+    /* border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin:  0 10px; 
+    overflow: hidden; */
+    margin-left:10px;
+    margin-bottom:10px;
+   
+}
+.signup{
+    /* width: 400px;
+    top: 50%;
+    left: 50%; */
+    
+    
+    
+  
+}
+button{
+    /* width: 80%;
+    background-color:lightseagreen ;
+    color: black;
+    padding: 3px;
+    font-size: 18px;  */
+    
+}
+
+.insideWrapper1{
+   margin:10px;
+}
+.title{
+    margin:10px; 
+}
+.title2{
+    margin:10px; 
+}
+.insideWrapper2{
+    margin:10px;
+}

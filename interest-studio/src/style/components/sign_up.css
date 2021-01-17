@@ -1,0 +1,27 @@
+.signUpPage{
+    margin:100;
+    
+    padding:0 30% 0 30%;
+    
+}
+.mainWrapper{
+    margin:100;
+    background:linear-gradient(to  bottom left,#e6bef7,#7579ff  );
+    padding-top:30px;
+    padding-bottom:30px;
+    
+}
+.signUpWrapper{
+    
+    position: relative;
+    margin-right:120;
+    
+
+    /* padding-left:auto;
+    padding-right: auto; */
+}
+.loginbtn{
+    margin:100;
+    padding-left:45%; 
+    
+}

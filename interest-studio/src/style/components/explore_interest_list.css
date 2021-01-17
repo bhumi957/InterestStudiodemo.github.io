@@ -1,0 +1,58 @@
+.interest_list{
+
+font-family: 'Montserrat', sans-serif;
+margin-top: 30px;
+margin-right: 15%;
+margin-left: 4%;
+border: 2px solid #b224ef;
+border-bottom: 5%;
+border-left: 1%;
+border-radius: 15px;
+}
+.field_name{
+  margin-top: 25px;
+ font-size: 20px;
+ margin-left: 1%;
+
+}
+.field_name:hover{
+  color: #b224ef;
+}
+.field_name:visited{
+  color: red;
+  }
+.follow
+{
+
+font-family: 'Montserrat', sans-serif;
+font-size: 12px;
+width: 150px;
+background-image: linear-gradient(to right, #7579ff 0%, #b224ef 40%, #7579ff 100%);
+transition: 0.5s;
+  background-size: 200% auto;
+border: 1px solid black;
+outline: none;
+height: 30px;
+border-radius: 100px;
+color: #fff;
+text-transform: uppercase;
+font-weight: 600;
+cursor: pointer;
+margin-left: 3%;
+margin-bottom: 2%
+
+}
+.follow:hover{
+   background-position: right ;
+background-image: linear-gradient(to left, #7579ff 0%, #b224ef 51%,#7579ff 100%);
+}
+h6{
+    margin-top: 1px;
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+margin-left: 3%;
+}
+h3{
+  margin-left: 3%;
+
+}
